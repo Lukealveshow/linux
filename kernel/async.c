@@ -55,7 +55,6 @@ asynchronous and synchronous parts of the kernel.
 #include <linux/workqueue.h>
 
 #include "workqueue_internal.h"
-
 static async_cookie_t next_cookie = 1;
 
 #define MAX_WORK		32768
